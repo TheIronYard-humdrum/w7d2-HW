@@ -5,8 +5,8 @@
 **CSS Tools**
 
 * To remove glow from active button 
-    ```
-    &:focus {
-        outline-color: transparent;
-        outline-style: none;
-    }
+```
+&:focus {
+  outline-color: transparent;
+    outline-style: none;
+}
