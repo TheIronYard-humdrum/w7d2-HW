@@ -1,0 +1,39 @@
+html, body, .container {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 130px;
+  height: 55px;
+  border-color: lighten(#217EBA, 22%);
+  border-radius: 10px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-width: 4px;
+  background-color: #2B96DD;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+  &:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+  &:active {
+    margin-top: 4px;
+    border: none;
+  }
+}
